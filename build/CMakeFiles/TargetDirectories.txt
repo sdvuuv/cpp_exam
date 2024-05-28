@@ -1,0 +1,3 @@
+/home/anya/2 term/cpp_exam/build/CMakeFiles/cpp_exam.dir
+/home/anya/2 term/cpp_exam/build/CMakeFiles/edit_cache.dir
+/home/anya/2 term/cpp_exam/build/CMakeFiles/rebuild_cache.dir

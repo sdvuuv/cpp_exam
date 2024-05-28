@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cpp_exam.dir/main.cpp.o CMakeFiles/cpp_exam.dir/functions/exponenta.cpp.o CMakeFiles/cpp_exam.dir/functions/hiperbola.cpp.o CMakeFiles/cpp_exam.dir/functions/parabola.cpp.o CMakeFiles/cpp_exam.dir/functions/polinom.cpp.o -o cpp_exam 
