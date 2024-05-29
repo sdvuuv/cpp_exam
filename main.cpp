@@ -33,7 +33,7 @@ int main(){
     hyp.displayResult(x, y);
     hyp.findMinimum(a, b); 
     hyp.findMaximum(a, b); 
-    x = 2.0; 
+    x = 3.0; 
     hyp.differentiate(x);
     hyp.integrate(a, b);
 
@@ -62,6 +62,10 @@ int main(){
     poly.integrate(a, b);
     x = 3.0; 
     poly.differentiate(x);
+    
+    cout << "=============================================" << endl;
+
+    hyp.differentiate(par.evaluate(x));
 
   
    

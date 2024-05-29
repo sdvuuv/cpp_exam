@@ -38,9 +38,11 @@ double Hyperbola::integrate(double a, double b) const
 }
 
 // Производная -a / ((x - h)^2)
+// value / (x - h) + k
+// 
 double Hyperbola::differentiate(double x) const
 {
-    double differential = -value / pow(x - h, 2.0);
+    double differential = - value / pow(x - h + k, 2.0);
     cout << "Дифференциал в x = " << x << ": " << differential << endl;
     return differential;
 }
