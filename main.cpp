@@ -7,6 +7,14 @@
 #include "functions/polinom.h"
 
 using namespace std;
+void complex_function(Function &firstFunc, Function &secondfunc, double x){
+    double res = secondfunc.differentiate(x);
+    double res2 = firstFunc.differentiate(res);
+    cout << "Дифференциал сложной функции " << res * res2 << endl;
+
+}
+
+
 
 int main(){
     setlocale(LC_ALL, "rus");
@@ -64,8 +72,9 @@ int main(){
     poly.differentiate(x);
     
     cout << "=============================================" << endl;
-
-    hyp.differentiate(par.evaluate(x));
+    complex_function(par, hyp, x);
+    
+    //hyp.differentiate(par.differentiate(x));
 
   
    

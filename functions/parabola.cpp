@@ -8,7 +8,7 @@ double Parabola::evaluate(double x) const {
 }
 
 void Parabola::displayResult(double x, double y) const {
-    std::cout << "Значение f(x) = " << value << "(x - " << h << ")^2" << "+" << k << " в точке x = " << x << ": " << y << std::endl;
+    cout << "Значение f(x) = " << value << "(x - " << h << ")^2" << "+" << k << " в точке x = " << x << ": " << y << std::endl;
 }
 
 double Parabola::findMinimum(double a, double b) const {
